@@ -60,7 +60,7 @@ class Currency:
 
 v1 = Currency(23.43, "EUR")
 v2 = Currency(19.97, "USD")
-v3 = Currency(5000, "JPY")
+v3 = Currency(50000, "JPY")
 print(v1 + v2)
 print(v2 + v1)
 print(v1 + 3)  # an int or a float is considered to be a USD value
